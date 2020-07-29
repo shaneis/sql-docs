@@ -61,7 +61,7 @@ CREATE SERVER ROLE role_name [ AUTHORIZATION server_principal ]
   
  Also requires IMPERSONATE on the *server_principal* for logins, ALTER permission for server roles used as the *server_principal*, or membership in a Windows group that is used as the server_principal.  
   
- This will fire the Audit Server Principal Management event withthe object type set to server role and event type to add.  
+ This will fire the Audit Server Principal Management event with the object type set to server role and event type to add.  
   
  When you use the AUTHORIZATION option to assign server role ownership, the following permissions are also required:  
   
